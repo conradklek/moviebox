@@ -10,6 +10,8 @@ export default function MovieDetails({ movie }: { movie: any }) {
     "Plot",
     "Awards",
     "BoxOffice",
+    "Metascore",
+    "imdbRating",
   ];
   return (
     <div className={style.movie__details__container}>
