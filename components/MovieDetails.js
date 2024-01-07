@@ -2,7 +2,7 @@
 
 import style from "@/components/MovieDetails.module.css";
 
-export default function MovieDetails({ movie }: { movie: any }) {
+export default function MovieDetails({ movie }) {
   const details = [
     "Genre",
     "Actors",

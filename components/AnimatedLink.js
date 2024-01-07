@@ -3,11 +3,7 @@ import useViewTransition from "@/hooks/useViewTransition";
 import Link from "next/link";
 import React from "react";
 
-type Props = {
-  href: string;
-  children: React.ReactNode;
-};
-export default function AnimatedLink({ href, children }: Props) {
+export default function AnimatedLink({ href, children }) {
   const { animatedRoute } = useViewTransition();
   return (
     <Link

@@ -1,6 +1,6 @@
 import MovieDetails from "@/components/MovieDetails";
 
-async function getMovie(movie_id: string) {
+async function getMovie(movie_id) {
   const res = await fetch(
     `http://www.omdbapi.com/?i=${movie_id}&apikey=dcd710eb`,
   );
@@ -9,7 +9,7 @@ async function getMovie(movie_id: string) {
   }
   return res.json();
 }
-export default async function Page({ params }: { params: any }) {
+export default async function Page({ params }) {
   const movie = await getMovie(params.movie_id);
   return (
     <section className="section__container">

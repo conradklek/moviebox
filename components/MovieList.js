@@ -5,12 +5,12 @@ import AnimatedLink from "@/components/AnimatedLink";
 import { useSearchParams } from "next/navigation";
 import Link from "next/link";
 
-export default function MovieList({ movies }: { movies: any }) {
+export default function MovieList({ movies }) {
   const searchParams = useSearchParams();
   const genre = searchParams.get("genre");
   return (
     <section className={style.movie__list}>
-      {movies.map((movie: any) => (
+      {movies.map((movie) => (
         <div key={movie.imdbID} className={style.movie__list__item} style={{ display: genre && !movie.Genre.includes(genre) ? "none" : "flex" }}>
           <div className={style.movie__title}>
             <Link

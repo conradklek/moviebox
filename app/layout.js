@@ -1,5 +1,4 @@
 import "./globals.css";
-import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import Link from "next/link";
 import { promises as fs } from "fs";
@@ -7,15 +6,13 @@ import MovieSearch from "@/components/MovieSearch";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export const metadata: Metadata = {
+export const metadata = {
   title: "MovieBox",
   description: "Built with Next.js and TypeScript",
 };
 
 export default async function RootLayout({
   children,
-}: {
-  children: React.ReactNode;
 }) {
   const movies = JSON.parse(
     await fs.readFile(process.cwd() + "/app/movies.json", "utf8"),
