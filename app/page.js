@@ -51,7 +51,7 @@ export default async function Home() {
           <Link href="/" className={style.movie__genre}>
             All
           </Link>
-          {genres.map((genre: string) => (
+          {genres.map((genre) => (
             <Link
               key={genre}
               href={`/?genre=${genre}`}
