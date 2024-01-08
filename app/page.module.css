@@ -41,7 +41,7 @@
   justify-content: center;
   margin: 0 auto;
   padding: 1.5rem 4rem;
-  max-width: 72rem;
+  max-width: 48rem;
 }
 @media (max-width: 768px) {
   .movie__genres {
