@@ -18,4 +18,7 @@ npm run dev
 
 ![Landing Page](https://github.com/conradklek/moviebox/blob/main/public/screenshots/movies.png?raw=true)
 ![Details Page](https://github.com/conradklek/moviebox/blob/main/public/screenshots/movie_detail.png?raw=true)
+
+### Lighthouse
+
 ![Lighthouse Score](https://github.com/conradklek/moviebox/blob/main/public/screenshots/lighthouse.png?raw=true)
