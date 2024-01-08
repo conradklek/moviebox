@@ -16,8 +16,8 @@ npm run dev
 
 ## Screenshots
 
-![Landing Page](https://github.com/conradklek/moviebox/blob/main/public/screenshots/movie_detail.png?raw=true)
-![Details Page](https://github.com/conradklek/moviebox/blob/main/public/screenshots/movies.png?raw=true)
+![Landing Page](https://github.com/conradklek/moviebox/blob/main/public/screenshots/movies_detail.png?raw=true)
+![Details Page](https://github.com/conradklek/moviebox/blob/main/public/screenshots/movie_detail.png?raw=true)
 
 ### Lighthouse
 
